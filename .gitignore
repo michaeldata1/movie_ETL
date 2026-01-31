@@ -1,0 +1,12 @@
+# Data files
+*.csv
+*.parquet
+
+# Extra SQL scripts
+db_transformations_extra.sql
+
+# Editor and environment folders
+.vscode/
+.venv/
+
+
