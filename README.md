@@ -82,13 +82,8 @@ movie_ETL/
 │   ├── refined_users.parquet
 │   └── refined_ratings.parquet
 ├── sql/
-│   ├── create_tables.sql
-│   ├── create_views.sql
-│   └── queries.sql
-├── scripts/
-│   ├── extract.py
-│   ├── transform.py
-│   └── load.py
+│   ├── on-the_movie.sql
+│   ├── db_transformations.sql
 ├── visualizations/
 │   ├── dashboard_1.png
 │   ├── dashboard_2.png
