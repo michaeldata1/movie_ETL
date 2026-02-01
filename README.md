@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project implements a comprehensive **Extract, Transform, Load (ETL)** pipeline for movie rating data, transforming raw CSV files into a structured SQL database and creating interactive visualizations for data analysis. The pipeline processes movie, user, and ratings data to generate insights about viewing patterns, demographics, and movie performance.
+This group project implements a comprehensive **Extract, Transform, Load (ETL)** pipeline for movie rating data, transforming raw CSV files into a structured SQL database and creating interactive visualizations for data analysis. The pipeline processes movie, user, and ratings data to generate insights about viewing patterns, demographics, and movie performance.
 
 ---
 
