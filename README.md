@@ -67,31 +67,6 @@ Six analytical views provide pre-aggregated insights:
 
 ---
 
-## 📂 Project Structure
-
-```
-movie_ETL/
-├── raw_data/
-│   ├── movies.csv
-│   ├── users.csv
-│   └── ratings.csv
-├── semi_cleaned/
-│   └── refined_movies_1.parquet
-├── cleaned/
-│   ├── refined_movies_2.parquet
-│   ├── refined_users.parquet
-│   └── refined_ratings.parquet
-├── sql/
-│   ├── on-the_movie.sql
-│   ├── db_transformations.sql
-├── visualizations/
-│   ├── dashboard_1.png
-│   ├── dashboard_2.png
-│   └── dashboard_3.png
-└── README.md
-
-```
-
 ## 🛠️ Technologies Used
 
 ### Data Processing
