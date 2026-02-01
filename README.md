@@ -125,12 +125,4 @@ Six analytical views provide pre-aggregated insights:
 - [ ] Time-series forecasting for trends
 - [ ] Social network analysis of user behavior
 
----
 
-## 👤 Author
-
-**Michael Data**
-- GitHub: [@michaeldata1](https://github.com/michaeldata1)
-  
-
-**Last Updated**: February 2026
