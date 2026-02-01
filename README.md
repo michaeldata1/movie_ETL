@@ -18,7 +18,7 @@ This project implements a comprehensive **Extract, Transform, Load (ETL)** pipel
 
 ## 📊 Project Architecture
 
-![ETL Pipeline Flowchart]("C:/Users/Michael/OneDrive/Documents/data engineer/flowchart_movie_etl.png")
+![ETL Pipeline Flowchart]()
 
 ### Pipeline Stages
 
