@@ -49,16 +49,23 @@ group by m.movie_id, title
 having avg(rating) < 3 and count(rating) > 250);
 
 
-
-select m.movie_id, title, avg(rating), age_category, count(rating)
-from movie m 
+create view movie_avg_rating_under_18 as(
+select m.movie_id,
+m.title,
+avg(r.rating) as avg_rating,
+u.age_category,
+count(r.rating) as rating_count
+from movie m
 join ratings r
 on m.movie_id = r.movie_id
-join user u 
+join "user" u
 on r.user_id = u.user_id
-where age_category = 'under_18' and count(rating) > 100
-group by m.movie_id, title, age_category
-order by avg(rating) desc; 
+where u.age_category = 'under_18'
+group by m.movie_id, m.title, u.age_category
+having count(r.rating) > 100
+order by avg_rating desc);
+
+
 
 create or replace view movie_ratings_avg_count as(
 select m.movie_id, title, rating, gender, age_category, 1
